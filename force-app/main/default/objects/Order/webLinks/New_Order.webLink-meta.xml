@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Order</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Order</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>lightning/o/Order/new?defaultFieldValues=OwnerId={!Order.OwnerId},Original_Order__c={!Order.Id},OpportunityId={!Order.OpportunityId}&amp;backgroundContext=%2Flightning%2Fr%2FOrder%2F{!Order.Id}%2Fview</url>
+</WebLink>
